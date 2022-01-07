@@ -12,13 +12,14 @@ li.right, li.center, li.left {
     list-style-type: none;
     margin-left: auto;
     margin-right: auto;
-    width: 33%;
+    width: 20%;
     vertical-align: middle;
     font-size: 25px;
 }
 
 li.right {
     justify-content: right;
+    width: 59%;
 }
 
 li.center {
@@ -27,4 +28,25 @@ li.center {
 
 li.left {
     justify-content: left;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid white;
+    transition: 0.3s;
+    color: black;
+}
+
+nav ul li a:hover {
+    border: 1px solid black;
+    padding: 10px;
+    transition: 0.3s;
 }
