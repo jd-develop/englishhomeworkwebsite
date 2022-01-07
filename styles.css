@@ -1,0 +1,30 @@
+html {
+    font-family: 'Segoe UI';
+}
+
+/** body {
+    
+} **/
+
+li.right, li.center, li.left {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+li.right {
+    justify-content: right;
+}
+
+li.center {
+    justify-content: center;
+}
+
+li.left {
+    justify-content: left;
+}
