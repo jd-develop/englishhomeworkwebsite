@@ -1,14 +1,15 @@
 html {
     font-family: 'Segoe UI';
+    background-color: #E8DCCA;
 }
 
 header {
-    background-color: lightgray;
+    background-color: whitesmoke;
     border-radius: 10px;
 }
 
 footer {
-    background-color: lightgray;
+    background-color: whitesmoke;
     border-radius: 10px;
 }
 
@@ -50,7 +51,7 @@ nav ul li a {
     text-decoration: none;
     border-radius: 8px;
     padding: 8px;
-    border: 1px solid lightgray;
+    border: 1px solid whitesmoke;
     transition: 0.3s;
     color: black;
 }
